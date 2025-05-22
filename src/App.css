@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.upload-box {
+    box-shadow: #80808094 0px 0px 20px 2px;
+    padding: 25px 25px;
+    border-radius: 10px;
+}
+
+.uploaded {
+    box-shadow: #80808094 0px 0px 20px 2px;
+    padding: 25px 25px;
+    border-radius: 10px;
+}
+
+.upload-box:hover{
+    background-color: #F7FCFE;
+}
+
+
+
+
