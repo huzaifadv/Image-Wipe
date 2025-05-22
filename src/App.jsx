@@ -4,7 +4,7 @@ import BgRemover from "./components/BgRemover"
 import Navbar from "./components/Navbar";
 import Promo from "./components/Promo";
 import { TabsDemo } from "./components/TabsDemo";
-import { InfiniteMovingCardsDemo } from "./components/Feedback";
+// import { InfiniteMovingCardsDemo } from "./components/Feedback";
 import Footer from "./components/Footer";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Navbar/>
       <BgRemover />
       <Promo/> 
-      <InfiniteMovingCardsDemo/>
+      {/* <InfiniteMovingCardsDemo/> */}
       <TabsDemo/> 
       <Footer/>
     </>

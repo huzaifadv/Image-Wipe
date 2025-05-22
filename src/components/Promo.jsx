@@ -40,7 +40,7 @@ export default function Promo() {
                     </div>
 
                 </div>
-            </div>
+            </div> <br /> <br /> <br />
         </>
     )
 }

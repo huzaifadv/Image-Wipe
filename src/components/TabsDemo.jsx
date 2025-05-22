@@ -92,7 +92,7 @@ export function TabsDemo() {
     ];
 
     return (
-        <div className="h-[30rem] md:h-[40rem] relative flex flex-col max-w-5xl mx-auto w-full items-start justify-start">
+        <div className="h-[30rem] md:h-[40rem] relative flex flex-col max-w-5xl pr-[10px] pl-[10px] mx-auto w-full items-start justify-start">
             <div className="mx-auto mb-[20px]">
                 <PointerHighlightDemo/>
             </div>

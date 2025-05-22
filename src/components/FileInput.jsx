@@ -17,7 +17,7 @@ export default function FileInput({ handle }) {
                     <video className="sm:w-[600px] w-[370px]" src={Video} autoPlay loop muted playsInline tabIndex="0" />
                 </div>
 
-                <div className="lg:my-auto mb-[20px] upload-box text-center m-[15px] lg:w-full sm:w-[700px] w-[360px] order-1 lg:order-2">
+                <div className="lg:my-auto mb-[20px] upload-box text-center m-[15px] lg:w-full sm:w-[700px] w-[355px] order-1 lg:order-2">
                     <label
                         htmlFor="dropzone-file"
                         className="flex flex-col hover:bg-[#F7FCFE] items-center justify-center h-80 border-4 border-dashed rounded-lg cursor-pointer bg-[#fff] border-[#95a0b0d1]"
