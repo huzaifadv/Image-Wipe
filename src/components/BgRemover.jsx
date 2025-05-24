@@ -5,6 +5,8 @@ import Heading from './Heading';
 
 export default function BgRemover() {
 
+    const apiKey = process.env.BG_API_KEY
+
     // State to store the uploaded image
     const [selectedFile, setSelectedFile] = useState(null);
 
@@ -39,7 +41,7 @@ export default function BgRemover() {
                 formData,
                 {
                     headers: {
-                        "X-Api-Key": "UsfELTg72oJGCv3sniEDSXhF", // Replace this with your real remove.bg API key
+                        "X-Api-Key": {apiKey}, // Replace this with your real remove.bg API key
                         "Content-Type": "multipart/form-data",
                     },
                     responseType: "blob", // Response is a binary image
