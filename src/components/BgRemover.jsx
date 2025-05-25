@@ -3,9 +3,8 @@ import React, { useState } from 'react'
 import FileInput from './FileInput';
 import Heading from './Heading';
 
+const apiKey = import.meta.env.VITE_BG_API_KEY;
 export default function BgRemover() {
-
-    const apiKey = process.env.BG_API_KEY
 
     // State to store the uploaded image
     const [selectedFile, setSelectedFile] = useState(null);
@@ -41,7 +40,7 @@ export default function BgRemover() {
                 formData,
                 {
                     headers: {
-                        "X-Api-Key": {apiKey}, // Replace this with your real remove.bg API key
+                        "X-Api-Key": apiKey, // Replace this with your real remove.bg API key
                         "Content-Type": "multipart/form-data",
                     },
                     responseType: "blob", // Response is a binary image
