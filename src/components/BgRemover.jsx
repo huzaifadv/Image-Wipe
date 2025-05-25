@@ -9,7 +9,7 @@ export default function BgRemover() {
     // State to store the uploaded image
     const [selectedFile, setSelectedFile] = useState(null);
 
-    // State to store the output image (without background)
+    // State to store the output image (without backgrounds)
     const [outputImage, setOutputImage] = useState(null);
 
     // State for loading spinner
